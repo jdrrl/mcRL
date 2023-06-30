@@ -1,0 +1,2 @@
+2023-06-30 22:27:42 winbrain process_watcher[3417] INFO Process watcher started between parent 3376 and child 3385 
+2023-06-30 22:32:23 winbrain process_watcher[3417] INFO Child is not running anymore, launcher can terminate.
