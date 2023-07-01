@@ -1,0 +1,2 @@
+2023-06-30 22:58:43 winbrain process_watcher[4147] INFO Process watcher started between parent 4106 and child 4115 
+2023-06-30 23:00:02 winbrain process_watcher[4147] INFO Parent is not running, hence we need terminate the child.

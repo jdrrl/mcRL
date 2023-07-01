@@ -1,0 +1,9 @@
+2023-07-01 08:50:49 winbrain process_watcher[1138] INFO Process watcher started between parent 1097 and child 1106 
+2023-07-01 08:52:10 winbrain process_watcher[1138] INFO Parent is not running, hence we need terminate the child.
+2023-07-01 08:52:10 winbrain process_watcher[1138] INFO About to reap process tree of 1106:launchClient.sh:/usr/bin/bash i sleeping, owner 533, printing process tree status in termination order:
+2023-07-01 08:52:10 winbrain process_watcher[1138] INFO 	-1110:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 1106
+2023-07-01 08:52:10 winbrain process_watcher[1138] INFO 	-1106:launchClient.sh:/usr/bin/bash i sleeping, owner 533
+2023-07-01 08:52:10 winbrain process_watcher[1138] INFO Trying to SIGTERM 1110:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 1106
+2023-07-01 08:52:15 winbrain process_watcher[1138] INFO Process 1110 survived SIGTERM; trying SIGKILL on 1110:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 1106
+2023-07-01 08:52:16 winbrain process_watcher[1138] INFO Process psutil.Process(pid=1110, name='java', status='terminated', started='08:50:48') terminated with exit code None
+2023-07-01 08:52:16 winbrain process_watcher[1138] INFO Process psutil.Process(pid=1106, name='launchClient.sh', status='terminated', started='08:50:48') does not exist or is zombie.
